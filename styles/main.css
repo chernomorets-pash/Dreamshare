@@ -1,0 +1,18 @@
+/* Main CSS */
+@import url('./styles.css');
+
+/* reseter */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ROOT */
+:root {
+    --btn-color-prime: rgba(243, 94,86,1);
+    --fav-color-red: rgb(255, 79, 80);
+    --fav-color-yellow:  rgb(255, 167, 18);
+    --fav-color-blue:  rgb(27, 213, 202);
+    --fav-color-purple: rgb(102, 125, 243);
+
+  }
