@@ -1,0 +1,121 @@
+/* Media querys */
+/* TABLETS */
+@media screen and (min-width:600px) {
+
+    /* welcome page */
+    .header {
+        margin-top: 2rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .header__logger {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .header__logo {
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .welcome-page__heading {
+        padding: 0 20%;
+        font-size: 5rem;
+    }
+
+    .welcome-page {
+        margin-top: 30%;
+    }
+
+    .welcome-page__btn {
+        margin: 0 30%;
+    }
+
+    /* CARDS */
+    .cards__wrapper {
+        display: flex;
+        width: 100%;
+    }
+
+    .cards__item {
+        padding: 0;
+        width: 33.33%;
+        padding-top: 20%;
+        padding-left: 1rem;
+    }
+
+    .card__item__step {
+        width: 50%;
+    }
+
+    .card__item__name {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    /* Avatars */
+    .avatars__section {
+        flex-direction: row;
+    }
+
+    /* Activities */
+    .activities__steck {
+        flex-direction: row;
+    }
+
+    .activities__item {
+        height: 45vh;
+    }
+
+    .act-four {
+        width: 35%;
+    }
+
+    .act-five {
+        width: 65%;
+    }
+
+    .act-six {
+        width: 65%;
+    }
+
+    .act-seven {
+        width: 35%;
+    }
+
+    /* CREATE */
+    .create__lbl {
+        display: flex;
+        align-items: baseline;
+        width: 70%;
+    }
+
+    .btn__submit {
+        margin-left: 5px;
+        width: 50%;
+    }
+
+    /* Footer */
+    .footer__wrapper {
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-around;
+        align-items: baseline;
+
+    }
+
+    .footer__company__list {
+        flex-direction: column;
+    }
+
+    .footer__company__list li {
+        margin: 0;
+    }
+
+    .footer__company {
+        width: 25%;
+        align-items: flex-start;
+    }
+}

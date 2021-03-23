@@ -1,5 +1,6 @@
 /* Main CSS */
 @import url('./styles.css');
+@import url('./mediaquerys.css');
 
 /* reseter */
 * {
