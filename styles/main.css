@@ -7,6 +7,9 @@
     margin: 0;
     padding: 0;
 }
+ul {
+    list-style: none;
+}
 /* ROOT */
 :root {
     --btn-color-prime: rgba(243, 94,86,1);
@@ -14,5 +17,4 @@
     --fav-color-yellow:  rgb(255, 167, 18);
     --fav-color-blue:  rgb(27, 213, 202);
     --fav-color-purple: rgb(102, 125, 243);
-
   }
