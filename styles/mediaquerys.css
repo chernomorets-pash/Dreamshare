@@ -119,3 +119,49 @@
         align-items: flex-start;
     }
 }
+/* Media DESCTOP */
+@media screen and (min-width:1024px) {
+
+    /* Welcome page */
+    .welcome-page {
+        margin-top: 10%;
+    }
+
+    .welcome-page__heading {
+        font-size: 3rem;
+    }
+
+    /* cards */
+    .cards {
+        margin: 1rem 5rem;
+    }
+
+    /* avatars */
+    .avatars {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1rem 5rem;
+    }
+
+    .avatars__heading {
+        width: 100%;
+    }
+
+    .avatars__section {
+        width: 50%;
+    }
+
+    .avatars__btn {
+        align-self: center;
+        width: 100%;
+        margin: 1rem 35%;
+    }
+
+    /* ACTIVITIES */
+    .activities {
+        margin: 1rem 5rem;
+    }
+
+
+}
